@@ -1,0 +1,25 @@
+{
+    "jobDefinitionName": "<AWS_JOB_DEFINITION_NAME>",
+    "type": "container",
+    "parameters": {
+    },
+    "containerProperties": {
+        "image": "<AWS_PGS_REPOSITORY_NAME>:<AWS_PGS_REPOSITORY_VERSION>",
+        "vcpus": 4,
+        "memory": 8128,
+        "command": [
+            "true"
+        ],
+        "volumes": [
+        ],
+        "environment": [
+        ],
+        "mountPoints": [
+        ],
+        "ulimits": [
+        ]
+    },
+    "retryStrategy": {
+        "attempts": 1
+    }
+}

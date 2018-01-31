@@ -1,0 +1,24 @@
+{
+    "computeEnvironmentName": "<AWS_COMPUTE_ENVIRONMENT_NAME>",
+    "type": "MANAGED",
+    "state": "ENABLED",
+    "computeResources": {
+        "type": "EC2",
+        "minvCpus": <AWS_COMPUTE_RESOURCES_MIN_VCPUS>,
+        "maxvCpus": <AWS_COMPUTE_RESOURCES_MAX_VCPUS>,
+        "desiredvCpus": <AWS_COMPUTE_RESOURCES_DESIRED_VCPUS>,
+        "instanceTypes": [
+            "m4.xlarge"
+        ],
+        "subnets": [
+            <AWS_SUBNETS>
+        ],
+        "securityGroupIds": [
+            <AWS_SECURITY_GROUPS>
+        ],
+        "ec2KeyPair": "<AWS_KEY_PAIR>",
+        "instanceRole": <AWS_INSTANCE_ROLE>,
+        "bidPercentage": 0
+    },
+    "serviceRole": <AWS_SERVICE_ROLE>
+}

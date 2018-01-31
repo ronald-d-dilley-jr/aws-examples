@@ -1,0 +1,11 @@
+{
+    "jobQueueName": "<AWS_JOB_QUEUE_NAME>",
+    "state": "ENABLED",
+    "priority": <AWS_JOB_QUEUE_PRIORITY>,
+    "computeEnvironmentOrder": [
+        {
+            "order": 0,
+            "computeEnvironment": "<AWS_COMPUTE_ENVIRONMENT_NAME>"
+        }
+    ]
+}
