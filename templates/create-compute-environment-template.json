@@ -8,7 +8,7 @@
         "maxvCpus": <AWS_COMPUTE_RESOURCES_MAX_VCPUS>,
         "desiredvCpus": <AWS_COMPUTE_RESOURCES_DESIRED_VCPUS>,
         "instanceTypes": [
-            "m4.xlarge"
+            <AWS_INSTANCE_TYPES>
         ],
         "subnets": [
             <AWS_SUBNETS>
