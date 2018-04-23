@@ -1,0 +1,15 @@
+{
+    "jobName": "<AWS_JOB_NAME>",
+    "jobQueue": "<AWS_JOB_QUEUE_NAME>",
+    "jobDefinition": "<AWS_JOB_DEFINITION_NAME>",
+    "containerOverrides": {
+        "vcpus": 4,
+        "memory": 8192,
+        "command": [
+            "cli.py --help"
+        ]
+    },
+    "retryStrategy": {
+        "attempts": 1
+    }
+}

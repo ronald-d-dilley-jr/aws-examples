@@ -16,7 +16,6 @@
         "securityGroupIds": [
             <AWS_SECURITY_GROUPS>
         ],
-        "ec2KeyPair": "<AWS_KEY_PAIR>",
         "instanceRole": <AWS_INSTANCE_ROLE>,
         "bidPercentage": 0
     },
